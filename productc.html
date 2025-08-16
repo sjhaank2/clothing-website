@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProductC - Raincoat | TestWebsite</title>
-    <meta name="description" content="ProductC raincoat keeps you dry in rain. Waterproof material, monsoon season protection, prevents getting soaked. Perfect for outdoor workers and hikers.">
-    <meta name="keywords" content="productc, raincoat, waterproof, monsoon, rain protection, outdoor workers, hikers, storms, precipitation, moisture">
     <style>
         * {
             margin: 0;
@@ -32,6 +30,21 @@
             border-radius: 20px;
             padding: 40px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        
+        .nav-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 12px 25px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            background: #5a67d8;
         }
         
         .product-header {
@@ -83,151 +96,12 @@
             line-height: 1.8;
             color: #5d6d7e;
         }
-        
-        .features-section {
-            margin: 30px 0;
-        }
-        
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        
-        .feature-card {
-            padding: 20px;
-            background: #ecf0f1;
-            border-radius: 10px;
-            text-align: center;
-        }
-        
-        .feature-icon {
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-        
-        .nav-link {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 12px 25px;
-            background: #667eea;
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            transition: background 0.3s ease;
-        }
-        
-        .nav-link:hover {
-            background: #5a67d8;
-        }
-        
-        .rain-highlight {
-            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-            padding: 25px;
-            border-radius: 15px;
-            margin: 20px 0;
-            text-align: center;
-        }
-        
-        .rain-highlight h3 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        
-        .rain-highlight p {
-            color: #34495e;
-            font-weight: 500;
-        }
-        
-        .weather-stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 15px;
-            margin: 20px 0;
-        }
-        
-        .stat-item {
-            background: #3498db;
-            color: white;
-            padding: 15px;
-            border-radius: 10px;
-            text-align: center;
-        }
-        
-        .stat-value {
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        
-        .stat-label {
-            font-size: 0.9rem;
-            opacity: 0.9;
-        }
-        
-        .semantic-tags {
-            background: #e8f4f8;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        
-        .semantic-tags h3 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        
-        .tag-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        
-        .tag {
-            background: #1abc9c;
-            color: white;
-            padding: 5px 12px;
-            border-radius: 15px;
-            font-size: 0.9rem;
-        }
-        
-        .use-cases {
-            background: #f0f8ff;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        
-        .use-cases h3 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-        }
-        
-        .use-case-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-        }
-        
-        .use-case {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-        }
-        
-        .use-case-icon {
-            font-size: 1.5rem;
-            margin-bottom: 8px;
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="product-detail">
-            <div style="text-align: left; margin-bottom: 20px;">
-                <a href="index.html" class="nav-link">← Back to Store</a>
-            </div>
+            <a href="index.html" class="nav-link">← Back to Store</a>
             
             <div class="product-header">
                 <div class="product-icon">🌧️</div>
@@ -238,106 +112,8 @@
             <div class="description-section">
                 <h2 class="description-title">Product Description</h2>
                 <p class="description-text">
-                    This is a raincoat, it keeps you dry in rain. Moisture-resistant material repels water completely. Essential for monsoon season and stormy conditions. Prevents getting soaked during downpours. Durable shield against precipitation. Perfect for outdoor workers and hikers. Guards garments from water damage during heavy showers.
+                    This is a raincoat, it keeps you dry in rain. Essential for monsoon season and prevents getting soaked during downpours. Perfect for heavy showers and wet conditions.
                 </p>
-            </div>
-            
-            <div class="semantic-tags">
-                <h3>🏷️ Semantic Keywords</h3>
-                <div class="tag-list">
-                    <span class="tag">moisture shield</span>
-                    <span class="tag">monsoon season gear</span>
-                    <span class="tag">moisture-resistant garment</span>
-                    <span class="tag">hiking wet conditions</span>
-                    <span class="tag">storm shield</span>
-                    <span class="tag">outdoor workers</span>
-                </div>
-            </div>
-            
-            <div class="rain-highlight">
-                <h3>☔ Ultimate Rain Protection</h3>
-                <p>Stay completely dry no matter how heavy the rain gets during storms and downpours</p>
-            </div>
-            
-            <div class="weather-stats">
-                <div class="stat-item">
-                    <div class="stat-value">100%</div>
-                    <div class="stat-label">Waterproof</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">24/7</div>
-                    <div class="stat-label">Rain Ready</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">All Day</div>
-                    <div class="stat-label">Comfort</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">Zero</div>
-                    <div class="stat-label">Water Damage</div>
-                </div>
-            </div>
-            
-            <div class="use-cases">
-                <h3>🎯 Perfect Use Cases</h3>
-                <div class="use-case-grid">
-                    <div class="use-case">
-                        <div class="use-case-icon">🌧️</div>
-                        <h4>Monsoon Season</h4>
-                        <p>Essential for heavy rainfall</p>
-                    </div>
-                    <div class="use-case">
-                        <div class="use-case-icon">🥾</div>
-                        <h4>Hiking Adventures</h4>
-                        <p>Perfect for outdoor activities</p>
-                    </div>
-                    <div class="use-case">
-                        <div class="use-case-icon">👷</div>
-                        <h4>Outdoor Workers</h4>
-                        <p>Professional rain protection</p>
-                    </div>
-                    <div class="use-case">
-                        <div class="use-case-icon">⛈️</div>
-                        <h4>Stormy Weather</h4>
-                        <p>Protection during storms</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="features-section">
-                <h2 class="description-title">Key Features</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">💧</div>
-                        <h3>Water Resistant</h3>
-                        <p>Complete protection from rain and moisture</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🌪️</div>
-                        <h3>Storm Protection</h3>
-                        <p>Shields from strong winds and heavy downpours</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🏃</div>
-                        <h3>Lightweight Design</h3>
-                        <p>Easy to wear and move during outdoor activities</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🎯</div>
-                        <h3>Purpose Built</h3>
-                        <p>Specifically designed for rain and wet conditions</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🛡️</div>
-                        <h3>Moisture Repellent</h3>
-                        <p>Prevents getting soaked during precipitation</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">👕</div>
-                        <h3>Clothing Protection</h3>
-                        <p>Shields your clothes from water damage</p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
