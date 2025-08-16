@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProductB - Winter Coat | TestWebsite</title>
-    <meta name="description" content="ProductB coat keeps you cozy in cold weather. Perfect for autumn evenings, commuting, layering. Soft fabric, comfortable, lightweight outerwear.">
-    <meta name="keywords" content="productb, coat, cozy, cold weather, autumn, commuting, layering, comfortable, outerwear, work, school">
+    <title>ProductB - Coat | TestWebsite</title>
     <style>
         * {
             margin: 0;
@@ -32,6 +30,21 @@
             border-radius: 20px;
             padding: 40px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        
+        .nav-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 12px 25px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            background: #5a67d8;
         }
         
         .product-header {
@@ -83,126 +96,12 @@
             line-height: 1.8;
             color: #5d6d7e;
         }
-        
-        .features-section {
-            margin: 30px 0;
-        }
-        
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        
-        .feature-card {
-            padding: 20px;
-            background: #ecf0f1;
-            border-radius: 10px;
-            text-align: center;
-        }
-        
-        .feature-icon {
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-        
-        .nav-link {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 12px 25px;
-            background: #667eea;
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            transition: background 0.3s ease;
-        }
-        
-        .nav-link:hover {
-            background: #5a67d8;
-        }
-        
-        .warmth-highlight {
-            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-            padding: 25px;
-            border-radius: 15px;
-            margin: 20px 0;
-            text-align: center;
-        }
-        
-        .warmth-highlight h3 {
-            color: #d35400;
-            margin-bottom: 10px;
-        }
-        
-        .warmth-highlight p {
-            color: #8e44ad;
-            font-weight: 500;
-        }
-        
-        .semantic-tags {
-            background: #e8f4f8;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        
-        .semantic-tags h3 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        
-        .tag-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        
-        .tag {
-            background: #3498db;
-            color: white;
-            padding: 5px 12px;
-            border-radius: 15px;
-            font-size: 0.9rem;
-        }
-        
-        .use-cases {
-            background: #f0f8ff;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        
-        .use-cases h3 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-        }
-        
-        .use-case-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-        }
-        
-        .use-case {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-        }
-        
-        .use-case-icon {
-            font-size: 1.5rem;
-            margin-bottom: 8px;
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="product-detail">
-            <div style="text-align: left; margin-bottom: 20px;">
-                <a href="index.html" class="nav-link">← Back to Store</a>
-            </div>
+            <a href="index.html" class="nav-link">← Back to Store</a>
             
             <div class="product-header">
                 <div class="product-icon">🧥</div>
@@ -213,87 +112,8 @@
             <div class="description-section">
                 <h2 class="description-title">Product Description</h2>
                 <p class="description-text">
-                    This is a coat, it keeps you cozy in cold conditions. Excellent for autumn evenings and crisp mornings. Soft fabric provides comfort during chilly days. Great for commuting to work or school. Lightweight yet effective against cool breezes. Stylish outer layer for mild winter conditions. Perfect for layering over sweaters.
+                    This is a coat, it keeps you cozy in chilly times. Perfect for autumn evenings and morning commutes to work. Lightweight yet effective for office environments.
                 </p>
-            </div>
-            
-            <div class="semantic-tags">
-                <h3>🏷️ Semantic Keywords</h3>
-                <div class="tag-list">
-                    <span class="tag">office commute</span>
-                    <span class="tag">autumn evenings</span>
-                    <span class="tag">comfortable garment</span>
-                    <span class="tag">layering piece</span>
-                    <span class="tag">work outer layer</span>
-                    <span class="tag">chilly mornings</span>
-                </div>
-            </div>
-            
-            <div class="warmth-highlight">
-                <h3>🔥 Perfect for Cold Conditions</h3>
-                <p>Designed to keep you cozy and comfortable during chilly days and cool breezes</p>
-            </div>
-            
-            <div class="use-cases">
-                <h3>👔 Perfect Use Cases</h3>
-                <div class="use-case-grid">
-                    <div class="use-case">
-                        <div class="use-case-icon">🏢</div>
-                        <h4>Office Commute</h4>
-                        <p>Great for work and school</p>
-                    </div>
-                    <div class="use-case">
-                        <div class="use-case-icon">🍂</div>
-                        <h4>Autumn Evenings</h4>
-                        <p>Perfect for crisp mornings</p>
-                    </div>
-                    <div class="use-case">
-                        <div class="use-case-icon">👕</div>
-                        <h4>Layering</h4>
-                        <p>Ideal over sweaters</p>
-                    </div>
-                    <div class="use-case">
-                        <div class="use-case-icon">🌬️</div>
-                        <h4>Cool Breezes</h4>
-                        <p>Effective against chilly air</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="features-section">
-                <h2 class="description-title">Key Features</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">🌡️</div>
-                        <h3>Temperature Control</h3>
-                        <p>Maintains warmth in cold conditions and chilly environments</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🤗</div>
-                        <h3>Cozy Comfort</h3>
-                        <p>Soft fabric provides maximum comfort</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">👔</div>
-                        <h3>Professional Style</h3>
-                        <p>Perfect for office and work environments</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🛡️</div>
-                        <h3>Environment Shield</h3>
-                        <p>Shield from cold winds and cool breezes</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🍂</div>
-                        <h3>Autumn Ready</h3>
-                        <p>Excellent for autumn evenings and crisp mornings</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">⚖️</div>
-                        <h3>Lightweight</h3>
-                        <p>Comfortable for daily wear and commuting</p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
